@@ -15,7 +15,7 @@ start_date = end_date - timedelta(days = 40)
 def load_data(ticker, start, end):
     return yf.download(ticker, start=start, end=end)
 
-df = pd.read_csv("dataSet28June2025.csv")
+df = pd.read_csv("sentiment_summary.csv")
 
 
 for x in range(7):
