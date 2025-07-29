@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyA1HK9fRuEOryDmNLgAxE_McNJ23W84Exg")
+genai.configure(api_key="Add Personal API Key")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def classify_data_sentiment(headline: str, date: str = None):
